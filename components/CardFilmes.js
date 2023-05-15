@@ -1,6 +1,6 @@
 import { ImageBackground, Text, View } from "react-native";
 import { StyleSheet} from 'react-native';
-
+import { AntDesign } from '@expo/vector-icons';
 
 const CardFilmes = ({imagem, nome, genero, datalanc, classificacao, duracao, descricao})=>{
     return(
@@ -48,10 +48,8 @@ const estilo = StyleSheet.create({
         flex: 1,
         fontSize: 18,
         padding:10,       
-        backgroundColor:"#00000061",
+        backgroundColor:"#555",
         color: "#FFF",
-        // borderBottomLeftRadius: 10,
-        // borderBottomRightRadius: 10,
         textAlign: "justify",
     },
     e_descricao:{
